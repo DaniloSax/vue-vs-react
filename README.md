@@ -113,8 +113,9 @@ const counter = useCounterStore()
 
 **Provide/Inject no Vue 3:**
 
+arquivo Parent.vue
+
 ```vue
-// Parent.vue
 import { provide } from 'vue'
 
 export default {
@@ -130,7 +131,6 @@ export default {
 **Usando o Provide/Inject no Vue 3 com Composition API:**
 
 ```vue
-<!-- Parent.vue -->
 <script setup>
 import { ref, provide } from 'vue'
 
@@ -148,9 +148,9 @@ provide('counter', { count, increment })
   </div>
 </template>
 ```
+Arquivo ChildComponent.vue 
 
 ```vue
-<!-- ChildComponent.vue -->
 <script setup>
 import { inject } from 'vue'
 
