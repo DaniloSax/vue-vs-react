@@ -113,7 +113,7 @@ const counter = useCounterStore()
 
 **Provide/Inject no Vue 3:**
 
-```js
+```vue
 // Parent.vue
 import { provide } from 'vue'
 
