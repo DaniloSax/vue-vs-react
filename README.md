@@ -255,7 +255,7 @@ Ambos são rápidos o suficiente. A performance dificilmente será um critério 
 | Ecossistema / job market     | Menor, mas crescente                 | Gigante, com muitas oportunidades                      |
 | Fullstack com SSR            | Nuxt 3                               | Next.js                                                |
 | Ferramentas de UI prontas    | Quasar, Vuetify, Tailwind + UI libs  | Material UI, Chakra, Tailwind + UI libs                |
-| Customização profunda com JS | Possível, mas menos "raw JS"         | Flexibilidade máxima, ideal pra arquiteturas complexas |
+| Customização profunda com JS | Possível, mas menos "raw JS/TS"      | Flexibilidade máxima, ideal pra arquiteturas complexas |
 
 ---
 
