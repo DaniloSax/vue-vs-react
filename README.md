@@ -116,6 +116,7 @@ const counter = useCounterStore()
 arquivo Parent.vue
 
 ```vue
+<script setup>
 import { provide } from 'vue'
 
 export default {
@@ -126,6 +127,7 @@ export default {
     })
   },
 }
+</script>
 ```
 
 **Usando o Provide/Inject no Vue 3 com Composition API:**
